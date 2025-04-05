@@ -2,8 +2,8 @@ export function Navbar(){
     return(
         <header className="px-4 pt-5 flex flex-col gap-4 sm:flex-row sm:px-6 md:px-10 lg:px-[10rem] justify-between items-center">
         <a href="html.html" className="flex justify-between items-center gap-2">
-            <i className="fas fa-arrow-right text-[.9rem] text-gray-700"></i>
-            <h1 className="text-[1.2rem] font-semibold">CreativeHub</h1>
+            <i className="fas fa-lightbulb text-3xl text-[#ffd600] text-shadow "></i>
+            <h1 className="text-2xl font-semibold">SparkVibe</h1>
         </a>
         <div className="flex flex-col sm:flex-row justify-between items-center gap-4">
             <nav className="hidden sm:block">

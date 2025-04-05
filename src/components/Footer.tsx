@@ -1,6 +1,6 @@
 export function Footer(){
     return(
-        <footer  className="px-4 py-6 bg-[#fbfdffda] md:px-10 lg:px-[10rem] lg:py-[3rem]">
+        <footer  className="px-4 py-6 bg-[#fcfcd9da] md:px-10 lg:px-[10rem] lg:py-[3rem]">
             <section  className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
                 <div  className="flex flex-col">
                     <h4  className="font-semibold mb-[.3rem]">For Client</h4>
@@ -32,7 +32,7 @@ export function Footer(){
                 </div>
             </section>
             <div  className="text-center text-[.8rem] text-gray-900 mt-6 lg:mt-[2rem]">
-                <p>@ 2025 CreativeHub - All Rights Reserved</p>
+                <p>@ 2025 SparkVibe - All Rights Reserved</p>
             </div>
         </footer>
     )
