@@ -84,7 +84,7 @@ export function HomeMain(){
                     <h2 className="text-xl font-semibold text-center mb-6 md:text-2xl lg:mb-[3rem]">Featured Talents</h2>
                     <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 lg:gap-[5rem]">
                         <TalentCard 
-                            imageUrl="../../../public/img/1.jpg"
+                            imageUrl="/img/1.jpg"
                             talentName="James Carter"
                             role="Senior UI/Designer"
                             rate={4.8}
@@ -92,7 +92,7 @@ export function HomeMain(){
                             price={92.6}
                         />
                         <TalentCard 
-                            imageUrl="../../../public/img/2.jpg"
+                            imageUrl="/img/2.jpg"
                             talentName="Almeida Jaime"
                             role="Full Stack Developer"
                             rate={4.7}
@@ -100,7 +100,7 @@ export function HomeMain(){
                             price={90.0}
                         />
                         <TalentCard 
-                            imageUrl="../../../public/img/3.jpg"
+                            imageUrl="/img/3.jpg"
                             talentName="Sophie Carter"
                             role="Digital Marketing Specialist"
                             rate={50}
@@ -108,7 +108,7 @@ export function HomeMain(){
                             price={100.0}
                         />
                         <TalentCard 
-                            imageUrl="../../../public/img/4.jpg"
+                            imageUrl="/img/4.jpg"
                             talentName="Lucas Mendes"
                             role="Frontend Developer"
                             rate={85}
@@ -117,7 +117,7 @@ export function HomeMain(){
                         />
 
                         <TalentCard 
-                            imageUrl="../../../public/img/5.jpg"
+                            imageUrl="/img/5.jpg"
                             talentName="Ana Oliveira"
                             role="Graphic Designer"
                             rate={90}
@@ -126,7 +126,7 @@ export function HomeMain(){
                         />
 
                         <TalentCard 
-                            imageUrl="../../../public/img/6.jpg"
+                            imageUrl="/img/6.jpg"
                             talentName="James Patel"
                             role="Data Analyst"
                             rate={75}
