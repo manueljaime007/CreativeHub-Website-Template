@@ -53,19 +53,10 @@ export function HomeMain(){
                             count={321} 
                             title="Database Administration"
                         /> 
-                        <PopularCategoriesCard 
-                            count={245} 
-                            title="Web Development"
-                        />
-
+                      
                         <PopularCategoriesCard 
                             count={178} 
                             title="Graphic Design"
-                        />
-
-                        <PopularCategoriesCard 
-                            count={392} 
-                            title="Mobile App Development"
                         />
 
                         <PopularCategoriesCard 
@@ -199,8 +190,8 @@ export function HomeMain(){
                     <h2 className="text-xl font-semibold text-center md:text-2xl">Ready to Get Started?</h2>
                     <p className="text-center text-sm md:text-base">Join Thousands of professionals and business on CreativeHub</p>
                     <div className="mt-4 flex flex-col gap-3 sm:flex-row sm:mt-6 lg:mt-[2rem] text-center">
-                        <a href="#" className="py-2 px-4 bg-[#123456] text-white rounded-[5rem]">Sign Up Now</a>
-                        <a href="#" className="py-2 px-4 border-2 border-black rounded-[5rem]">Learn More</a>
+                        <a href="#" className="py-2 px-4 border-2 border-transparent bg-[#1f1f1f] text-white rounded-[5rem] transition duration-200 ease-in-out hover:bg-amber-400 ">Sign Up Now</a>
+                        <a href="#" className="py-2 px-4 border-2 border-black rounded-[5rem] transition duration-200 ease-in-out hover:border-transparent hover:bg-[#1f1f1f] hover:text-white">Learn More</a>
                     </div>
                 </section>
             </main>
