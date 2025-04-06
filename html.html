@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Overlapping Avatars</title>
+    <style>
+        .avatar-container {
+            display: flex;
+            align-items: center;
+        }
+
+        .avatar {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            /* border: 2px solid white; */
+            object-fit: cover;
+            margin-left: -15px; /* Sobreposição */
+            transition: transform 0.3s ease;
+        }
+
+        .avatar:first-child {
+            margin-left: 0;
+        }
+
+        .avatar:hover {
+            transform: scale(1.2);
+            z-index: 10; /* Destaque ao passar o mouse */
+        }
+    </style>
+</head>
+<body>
+
+    <div class="avatar-container">
+        <img src="https://i.pravatar.cc/50?img=1" class="avatar" alt="Avatar 1">
+        <img src="https://i.pravatar.cc/50?img=2" class="avatar" alt="Avatar 2">
+        <img src="https://i.pravatar.cc/50?img=3" class="avatar" alt="Avatar 3">
+        <img src="https://i.pravatar.cc/50?img=4" class="avatar" alt="Avatar 4">
+    </div>
+
+</body>
+</html>

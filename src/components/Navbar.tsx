@@ -10,7 +10,7 @@ export function Navbar(){
                 <ul className="flex justify-between gap-3">
                     <li className="text-[.9rem] text-gray-700"><a href="#">Free Work</a></li>
                     <li className="text-[.9rem] text-gray-700"><a href="#">Find Talent</a></li>
-                    <li className="text-[.9rem] text-gray-700"><a href="#">Why CreativeHub</a></li>
+                    <li className="text-[.9rem] text-gray-700"><a href="#">Why SparkVibe</a></li>
                 </ul>
             </nav>
             <div className="flex gap-4 sm:hidden">
