@@ -1,4 +1,4 @@
-import categoryComponents from "../../../CategorieComponets";
+// import categoryComponents from "../../../CategorieComponets";
 import { PopularCategoriesCard } from "./PopularCategoriesCard";
 import { RecentProjectCard } from "./RecentProjectsCard";
 import { TalentCard } from "./TalentCard";
@@ -17,11 +17,6 @@ export function HomeMain(){
                         <a href="#" className="py-2 px-4 border-2 border-black rounded-[5rem] transition duration-200 ease-in-out hover:border-transparent hover:bg-[#1f1f1f] hover:text-white">Find Work</a>
                     </div>
                 </section>
-
-                <section>
-                    {categoryComponents}
-                </section>
-
                 <section className="px-4 py-6 flex flex-col gap-5 bg-[#fcfcd9da] md:px-10 lg:px-[10rem] lg:py-[2rem]">
                     <h2 className="text-xl font-semibold mb-2 text-center md:text-2xl">Popular Categories</h2>    
                     <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3 lg:gap-5">
@@ -176,7 +171,7 @@ export function HomeMain(){
                             price={12}
                         />
                         <RecentProjectCard 
-                            imgUrl="https://cdn.dribbble.com/users/123456/screenshots/7890123/media/food-delivery-app.jpg"
+                            imgUrl="https://avatars.mds.yandex.net/i?id=e78124710d1d25d9b2a39a35f9435dad24a49b1d-4935575-images-thumbs&n=13"
                             title="Food Delivery App"
                             subtitle="Client QuickBite"
                             badge="Mobile App Design"
@@ -184,7 +179,7 @@ export function HomeMain(){
                         />
 
                         <RecentProjectCard 
-                            imgUrl="https://www.webdesignerdepot.com/uploads/2019/05/landing-page-example.jpg"
+                            imgUrl="https://avatars.mds.yandex.net/i?id=0a9d45b12f68f2f1c43fefba6a0443f31d700b6d-12856885-images-thumbs&n=13"
                             title="Landing Page Redesign"
                             subtitle="Client TechStartup"
                             badge="Web Design"
@@ -192,7 +187,7 @@ export function HomeMain(){
                         />
 
                         <RecentProjectCard 
-                            imgUrl="https://cdn.pixabay.com/photo/2020/05/25/17/03/travel-website.jpg"
+                            imgUrl="https://avatars.mds.yandex.net/i?id=3f59a1f688061d3d0d9ffd656169105898aa7f87-10811696-images-thumbs&n=13"
                             title="Travel Booking Website"
                             subtitle="Client Wanderlust Agency"
                             badge="UI/UX Design"
